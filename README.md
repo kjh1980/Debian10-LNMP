@@ -34,6 +34,6 @@ dpkg -i<br>
 #安装php<br>
 apt -y install php7.3-fpm php7.3-mysql php7.3-curl php7.3-gd php7.3-mbstring php7.3-xml php7.3-xmlrpc php7.3-opcache php7.3-zip php7.3 php7.3-json php7.3-bz2 php7.3-bcmath<br>
 #添加软链接，方便重启服务<br>
-ln -s  /lib/systemd/system/php7.3-fpm.service  /etc/systemd/systemphp.service<br>
+ln -s  /lib/systemd/system/php7.3-fpm.service  /etc/systemd/system/php.service<br>
 
 
